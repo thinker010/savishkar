@@ -11,33 +11,33 @@ All colors MUST be HSL.
   :root {
 
   /* Savishkar India: Deep blue background, orange accent, white foreground */
-  --background: 220 60% 8%; /* deep blue */
-  --foreground: 0 0% 100%; /* white */
+  --background: 210 80% 18%; /* lighter, vibrant blue */
+  --foreground: 0 0% 98%; /* near white */
 
-  --card: 220 40% 12%;
-  --card-foreground: 0 0% 100%;
+  --card: 210 60% 22%;
+  --card-foreground: 0 0% 98%;
 
-  --popover: 220 40% 12%;
-  --popover-foreground: 0 0% 100%;
+  --popover: 210 60% 22%;
+  --popover-foreground: 0 0% 98%;
 
-  --primary: 24 100% 50%; /* vibrant orange */
+  --primary: 32 100% 55%; /* brighter orange */
   --primary-foreground: 0 0% 100%;
 
-  --secondary: 220 30% 18%;
-  --secondary-foreground: 0 0% 100%;
+  --secondary: 210 40% 28%;
+  --secondary-foreground: 0 0% 98%;
 
-  --muted: 220 20% 20%;
-  --muted-foreground: 24 100% 70%;
+  --muted: 210 30% 30%;
+  --muted-foreground: 32 100% 75%;
 
-  --accent: 24 100% 60%;
+  --accent: 32 100% 65%;
   --accent-foreground: 0 0% 100%;
 
   --destructive: 0 84.2% 60.2%;
   --destructive-foreground: 0 0% 100%;
 
-  --border: 220 30% 30%;
-  --input: 220 30% 20%;
-  --ring: 24 100% 50%;
+  --border: 210 30% 40%;
+  --input: 210 30% 30%;
+  --ring: 32 100% 55%;
 
     /* Tech Theme Colors */
     --electric-blue: 210 100% 60%;
