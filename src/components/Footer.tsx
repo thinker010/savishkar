@@ -7,7 +7,7 @@ const Footer = () => {
   const quickLinks = [
   { name: "About Savishkar", href: "#about" },
   { name: "Events", href: "#events" },
-  { name: "Registration", href: "https://docs.google.com/forms/d/e/1FAIpQLSeM1zIxmvADE_k6EEKsqY-dtXr23_GqLf4iUuiArcej6BSKYQ/viewform?usp=dialog", external: true }
+  { name: "Registration", href: "https://docs.google.com/forms/d/e/1FAIpQLSfYi8kj_ETuth0ucuSl8my4gMqSDBCE_Vfu3CkiISqeT3KWew/viewform?usp=dialog", external: true }
   ];
 
   const socialLinks = [

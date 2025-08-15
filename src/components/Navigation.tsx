@@ -54,7 +54,7 @@ const Navigation = () => {
               Registration Open
             </Badge>
             <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSeM1zIxmvADE_k6EEKsqY-dtXr23_GqLf4iUuiArcej6BSKYQ/viewform?usp=dialog"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSfYi8kj_ETuth0ucuSl8my4gMqSDBCE_Vfu3CkiISqeT3KWew/viewform?usp=dialog"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -101,7 +101,7 @@ const Navigation = () => {
                 </Badge>
                 <Button className="w-full tech-gradient text-background">
                   <a
-                    href="https://docs.google.com/forms/d/e/1FAIpQLSeM1zIxmvADE_k6EEKsqY-dtXr23_GqLf4iUuiArcej6BSKYQ/viewform?usp=dialog"
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSfYi8kj_ETuth0ucuSl8my4gMqSDBCE_Vfu3CkiISqeT3KWew/viewform?usp=dialog"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="block w-full h-full"
