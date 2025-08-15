@@ -1,7 +1,7 @@
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
-import { Atom, Mail, Phone, MapPin, FacebookIcon, Twitter, Instagram, Linkedin } from "lucide-react";
+import { Mail, Phone, MapPin, FacebookIcon, Twitter, Instagram, Linkedin } from "lucide-react";
 
 const Footer = () => {
   const quickLinks = [
@@ -30,7 +30,12 @@ const Footer = () => {
             <div className="lg:col-span-2">
               <div className="flex items-center space-x-3 mb-6">
                 <div className="w-12 h-12 tech-gradient rounded-xl flex items-center justify-center">
-                  <Atom className="w-7 h-7 text-background" />
+                  <img
+                    src="/favicon.ico"
+                    alt="Savishkar Logo"
+                    className="w-9 h-9 rounded"
+                    style={{ background: 'white' }}
+                  />
                 </div>
                 <div>
                   <div className="text-2xl font-bold text-foreground">Savishkar</div>

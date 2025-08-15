@@ -18,7 +18,12 @@ const Navigation = () => {
           {/* Logo */}
           <div className="flex items-center space-x-3">
             <div className="w-10 h-10 tech-gradient rounded-lg flex items-center justify-center">
-              <Atom className="w-6 h-6 text-background" />
+              <img
+                src="/favicon.ico"
+                alt="Savishkar Logo"
+                className="w-8 h-8 rounded"
+                style={{ background: 'white' }}
+              />
             </div>
             <div>
               <div className="font-bold text-lg text-foreground">Savishkar</div>
