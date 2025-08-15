@@ -9,20 +9,29 @@ const EventDetails = () => {
       day: "Day 1",
       date: "August 16, 2025",
       events: [
-        { time: "09:00 AM", title: "Registration & Welcome", type: "registration" },
-        { time: "10:30 AM", title: "Inauguration Ceremony", type: "ceremony" },
-        { time: "02:00 PM", title: "Project Presentations - Tech Track", type: "presentation" },
-        { time: "05:00 PM", title: "Innovation Showcase", type: "showcase" }
+        { time: "08:00 – 09:00 AM", title: "Breakfast", type: "other" },
+        { time: "09:00 – 09:45 AM", title: "Registration", type: "registration" },
+        { time: "10:00 – 11:30 AM", title: "Inauguration Ceremony: Prof. S. Sadagopan (Former Director, IIIT Bangalore), G. Rao (Director CSR & External Industry Affairs, Volvo Group), Dr. K. N. Subramanya (Principal, RVCE)", type: "ceremony" },
+        { time: "11:30 – 01:00 PM", title: "Keynote Addresses & Discussions", type: "keynote" },
+        { time: "01:00 – 03:00 PM", title: "Lunch & Networking", type: "other" },
+        { time: "03:25 – 04:24 PM", title: "Session 3: Startup Culture in India – Shri Krishnaraja M Manjunatha (Founder, Vishvagra-iRiSEPro)", type: "presentation" },
+        { time: "04:55 – 06:20 PM", title: "Address by Shri Shiv Kumar ji (ZOS South Central)", type: "presentation" },
+        { time: "06:25 – 07:25 PM", title: "Addresses by Shri Ghanshyam Shahi ji & Dr. Punit Kumar Dwivedi", type: "presentation" },
+        { time: "07:30 – 08:24 PM", title: "Forum, MOUs, Chapter Formation & Internships", type: "other" },
+        { time: "09:30 – 10:30 PM", title: "Cultural Activity", type: "other" }
       ]
     },
     {
       day: "Day 2",
       date: "August 17, 2025",
       events: [
-        { time: "09:00 AM", title: "Keynote by Industry Leaders", type: "keynote" },
-        { time: "11:00 AM", title: "Research Paper Sessions", type: "presentation" },
-        { time: "02:00 PM", title: "Panel Discussion: Future Tech", type: "discussion" },
-        { time: "04:00 PM", title: "Innovation Competition", type: "competition" }
+        { time: "07:45 – 08:45 AM", title: "Breakfast", type: "other" },
+        { time: "09:00 – 09:56 AM", title: "Address by Shri Ashish Chouhan ji (National Organizing Sec., ABVP)", type: "presentation" },
+        { time: "10:30 – 11:30 AM", title: "Panel Discussion: While Studying, Doing the Business and Innovation", type: "discussion" },
+        { time: "11:45 – 12:54 PM", title: "National Convenor & Co-Convenor – Annual Planning Discussion", type: "presentation" },
+        { time: "02:30 – 03:21 PM", title: "Address by Dr. S. Linga Murthy (Associate Professor, CUK)", type: "presentation" },
+        { time: "03:55 – 04:33 PM", title: "Valedictory Session – Dr. Prakash Mahanvar ji & Shri Ashish Chouhan ji", type: "ceremony" },
+        { time: "04:33 – 05:00 PM", title: "Closing Announcements & Samapan", type: "other" }
       ]
     }
   ];
