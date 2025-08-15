@@ -5,9 +5,9 @@ import { Atom, Mail, Phone, MapPin, FacebookIcon, Twitter, Instagram, Linkedin }
 
 const Footer = () => {
   const quickLinks = [
-    { name: "About Savishkar", href: "#about" },
-    { name: "Events", href: "#events" },
-    { name: "Registration", href: "#register" }
+  { name: "About Savishkar", href: "#about" },
+  { name: "Events", href: "#events" },
+  { name: "Registration", href: "https://docs.google.com/forms/d/e/1FAIpQLSeM1zIxmvADE_k6EEKsqY-dtXr23_GqLf4iUuiArcej6BSKYQ/viewform?usp=dialog", external: true }
   ];
 
   const socialLinks = [
@@ -54,12 +54,23 @@ const Footer = () => {
               <ul className="space-y-3">
                 {quickLinks.map((link, index) => (
                   <li key={index}>
-                    <a 
-                      href={link.href} 
-                      className="text-muted-foreground hover:text-electric-blue transition-colors duration-200"
-                    >
-                      {link.name}
-                    </a>
+                    {link.external ? (
+                      <a
+                        href={link.href}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-muted-foreground hover:text-electric-blue transition-colors duration-200"
+                      >
+                        {link.name}
+                      </a>
+                    ) : (
+                      <a
+                        href={link.href}
+                        className="text-muted-foreground hover:text-electric-blue transition-colors duration-200"
+                      >
+                        {link.name}
+                      </a>
+                    )}
                   </li>
                 ))}
               </ul>

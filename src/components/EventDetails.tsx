@@ -127,7 +127,14 @@ const EventDetails = () => {
               <div className="text-xl font-semibold text-tech-orange mb-1">Open Now</div>
               <div className="text-muted-foreground">Limited seats available</div>
               <Button className="mt-3 tech-gradient text-background hover:opacity-90 text-sm">
-                Register Now
+                <a
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSeM1zIxmvADE_k6EEKsqY-dtXr23_GqLf4iUuiArcej6BSKYQ/viewform?usp=dialog"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block w-full h-full"
+                >
+                  Register Now
+                </a>
               </Button>
             </CardContent>
           </Card>

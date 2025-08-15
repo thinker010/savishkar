@@ -48,9 +48,15 @@ const Navigation = () => {
             <Badge variant="outline" className="border-electric-blue text-electric-blue">
               Registration Open
             </Badge>
-            <Button className="tech-gradient text-background hover:opacity-90 transition-opacity">
-              Register
-            </Button>
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSeM1zIxmvADE_k6EEKsqY-dtXr23_GqLf4iUuiArcej6BSKYQ/viewform?usp=dialog"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button className="tech-gradient text-background hover:opacity-90 transition-opacity">
+                Register
+              </Button>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -89,7 +95,14 @@ const Navigation = () => {
                   Registration Open
                 </Badge>
                 <Button className="w-full tech-gradient text-background">
-                  Register Now
+                  <a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSeM1zIxmvADE_k6EEKsqY-dtXr23_GqLf4iUuiArcej6BSKYQ/viewform?usp=dialog"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block w-full h-full"
+                  >
+                    Register Now
+                  </a>
                 </Button>
               </div>
             </div>

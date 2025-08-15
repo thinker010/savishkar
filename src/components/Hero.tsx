@@ -80,9 +80,15 @@ const Hero = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="tech-gradient hover:opacity-90 transition-all duration-300 tech-shadow text-background font-semibold px-8 py-3">
-              Register Now
-            </Button>
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSeM1zIxmvADE_k6EEKsqY-dtXr23_GqLf4iUuiArcej6BSKYQ/viewform?usp=dialog"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button size="lg" className="tech-gradient hover:opacity-90 transition-all duration-300 tech-shadow text-background font-semibold px-8 py-3">
+                Register Now
+              </Button>
+            </a>
           </div>
         </div>
       </div>
