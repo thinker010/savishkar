@@ -4,6 +4,13 @@ import { Calendar, MapPin, Users, Trophy } from "lucide-react";
 import heroImage from "@/assets/hero-poster.jpg";
 
 const Hero = () => {
+  // Event start and end
+  const eventStart = new Date('2025-08-16T09:30:00');
+  const eventEnd = new Date('2025-08-17T17:00:00'); // End of Day 2 (adjust as needed)
+  // Calculate days difference (inclusive)
+  const msPerDay = 1000 * 60 * 60 * 24;
+  const days = Math.round((eventEnd.getTime() - eventStart.getTime()) / msPerDay) + 1;
+
   return (
     <section className="min-h-screen flex items-center justify-center overflow-hidden pt-20">
       {/* Animated Background */}
@@ -73,7 +80,7 @@ const Hero = () => {
               <div className="flex items-center justify-center mb-2">
                 <Calendar className="w-8 h-8 text-tech-orange" />
               </div>
-              <div className="text-2xl font-bold text-tech-orange">2</div>
+              <div className="text-2xl font-bold text-tech-orange">{days}</div>
               <div className="text-sm text-muted-foreground">Days</div>
             </div>
           </div>
