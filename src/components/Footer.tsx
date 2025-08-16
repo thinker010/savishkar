@@ -29,14 +29,12 @@ const Footer = () => {
             {/* Brand Section */}
             <div className="lg:col-span-2">
               <div className="flex items-center space-x-3 mb-6">
-                <div className="w-12 h-12 tech-gradient rounded-xl flex items-center justify-center">
-                  <img
-                    src="/favicon.ico"
-                    alt="Savishkar Logo"
-                    className="w-9 h-9 rounded"
-                    style={{ background: 'white' }}
-                  />
-                </div>
+                <img
+                  src="/favicon.ico"
+                  alt="Savishkar Logo"
+                  className="w-12 h-12"
+                  style={{ display: 'block' }}
+                />
                 <div>
                   <div className="text-2xl font-bold text-foreground">Savishkar</div>
                   <div className="text-sm text-electric-blue font-semibold">Innovation Unleashed</div>
