@@ -17,14 +17,12 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center space-x-3">
-            <div className="w-10 h-10 tech-gradient rounded-lg flex items-center justify-center">
-              <img
-                src="/favicon.ico"
-                alt="Savishkar Logo"
-                className="w-8 h-8 rounded"
-                style={{ background: 'white' }}
-              />
-            </div>
+            <img
+              src="/favicon.ico"
+              alt="Savishkar Logo"
+              className="w-10 h-10"
+              style={{ display: 'block' }}
+            />
             <div>
               <div className="font-bold text-lg text-foreground">Savishkar</div>
               <div className="text-xs text-electric-blue font-semibold">2025</div>
