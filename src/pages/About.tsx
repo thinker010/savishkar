@@ -12,7 +12,7 @@ const About = () => (
     </div>
 
     {/* Convenors Carousel */}
-    <h2 className="text-2xl md:text-3xl font-bold text-center mb-6 text-electric-blue">National Convenor & Co-Convenors</h2>
+    <h2 className="text-2xl md:text-3xl font-bold text-center mb-6 text-electric-blue">Our Team </h2>
     <div className="w-full overflow-x-auto pb-4">
       <div className="flex gap-8 min-w-[600px] md:min-w-0 px-2" style={{scrollSnapType: 'x mandatory'}}>
         {convenors.map((c) => (
