@@ -1,6 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 import { Calendar, MapPin, Clock, Users, Award, Presentation } from "lucide-react";
 
 const EventDetails = () => {
@@ -135,16 +136,11 @@ const EventDetails = () => {
             <CardContent>
               <div className="text-xl font-semibold text-tech-orange mb-1">Open Now</div>
               <div className="text-muted-foreground">Limited seats available</div>
-              <Button className="mt-3 tech-gradient text-background hover:opacity-90 text-sm">
-                <a
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSfYi8kj_ETuth0ucuSl8my4gMqSDBCE_Vfu3CkiISqeT3KWew/viewform?usp=dialog"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="block w-full h-full"
-                >
+              <Link to="/register" className="block w-full h-full">
+                <Button className="mt-3 tech-gradient text-background hover:opacity-90 text-sm w-full">
                   Register Now
-                </a>
-              </Button>
+                </Button>
+              </Link>
             </CardContent>
           </Card>
         </div>

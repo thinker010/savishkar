@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 import { Badge } from "@/components/ui/badge";
 import { Calendar, MapPin, Users, Trophy } from "lucide-react";
 import heroImage from "@/assets/hero-poster.jpg";
@@ -87,15 +88,11 @@ const Hero = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSfYi8kj_ETuth0ucuSl8my4gMqSDBCE_Vfu3CkiISqeT3KWew/viewform?usp=dialog"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <Link to="/register">
               <Button size="lg" className="tech-gradient hover:opacity-90 transition-all duration-300 tech-shadow text-background font-semibold px-8 py-3">
                 Register Now
               </Button>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

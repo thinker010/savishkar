@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Menu, X, Atom, Calendar, Users, Trophy, Info } from "lucide-react";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -52,15 +53,11 @@ const Navigation = () => {
             <Badge variant="outline" className="border-electric-blue text-electric-blue">
               Registration Open
             </Badge>
-            <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSfYi8kj_ETuth0ucuSl8my4gMqSDBCE_Vfu3CkiISqeT3KWew/viewform?usp=dialog"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <Link to="/register">
               <Button className="tech-gradient text-background hover:opacity-90 transition-opacity">
                 Register
               </Button>
-            </a>
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -98,16 +95,11 @@ const Navigation = () => {
                 <Badge variant="outline" className="border-electric-blue text-electric-blue mb-3">
                   Registration Open
                 </Badge>
-                <Button className="w-full tech-gradient text-background">
-                  <a
-                    href="https://docs.google.com/forms/d/e/1FAIpQLSfYi8kj_ETuth0ucuSl8my4gMqSDBCE_Vfu3CkiISqeT3KWew/viewform?usp=dialog"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block w-full h-full"
-                  >
+                <Link to="/register" className="block w-full h-full">
+                  <Button className="w-full tech-gradient text-background">
                     Register Now
-                  </a>
-                </Button>
+                  </Button>
+                </Link>
               </div>
             </div>
           </div>
